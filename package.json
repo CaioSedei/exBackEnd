@@ -1,0 +1,25 @@
+{
+  "name": "exbackend",
+  "version": "1.0.0",
+  "description": "Projeto de exemplo JP",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioSedei/exBackEnd.git"
+  },
+  "author": "Caio Sedei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioSedei/exBackEnd/issues"
+  },
+  "homepage": "https://github.com/CaioSedei/exBackEnd#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
