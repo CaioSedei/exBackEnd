@@ -21,3 +21,14 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
 console.log(`Servidor a rodar em http://localhost:${port}`);
 });
+
+
+
+//query params
+    //inicializa na URL depois do "?"
+    //?nome=Caio&idade=19
+    //req.query.idade
+    //route params
+    //inicializa na URL depois da barra "/"
+    //localhost:3000/api/pessoa/3
+    //req.params.id

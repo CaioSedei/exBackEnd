@@ -1,16 +1,10 @@
 import express from 'express';
-
 const app = express();
+import { exercicio1, exercicio2, exercicio3, exercicio4 } from './services/exercicios.js';
+
 
 app.get('/api/pessoa/:id', (req, res) => {
-    //query params
-    //inicializa na URL depois do "?"
-    //?nome=Caio&idade=19
-    //req.query.idade
-    //route params
-    //inicializa na URL depois da barra "/"
-    //localhost:3000/api/pessoa/3
-    //req.params.id
+    
 
     const nome = req.query.nome;
     console.log(req.params);
@@ -18,6 +12,17 @@ app.get('/api/pessoa/:id', (req, res) => {
     // res.status(200).send(`Hello, World!${req.params.id}`);
 });
 
-app.listen(3000 , () => {
+app.get('/exercicio1', exercicio1 )
+
+app.get('/exercicio2/:valorHr/:qtdeHr', exercicio2)
+
+app.get('/exercicio3/:p1/:p2/:p3/:p4/:p5', exercicio3)
+
+app.get('/exercicio4', exercicio4 )
+
+
+
+app.listen(3000, () => {
     console.log("Server is running on port 3000");
 });
+
