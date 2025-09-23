@@ -32,3 +32,5 @@ console.log(`Servidor a rodar em http://localhost:${port}`);
     //inicializa na URL depois da barra "/"
     //localhost:3000/api/pessoa/3
     //req.params.id
+
+erro500 falta == app.use(express.json());
