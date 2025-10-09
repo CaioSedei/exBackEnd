@@ -36,18 +36,6 @@ console.log(`Servidor a rodar em http://localhost:${port}`);
 erro500 falta == app.use(express.json());
 
 
-iniciar projeto 
-npm init
-
-baixar o expresses
-npm i expresses
-
-import para rodar os testes automatizados
-import { describe, it, expect } from '@jest/globals';
-
-baixar a lib de tests
-npm i --save-dev jest cross-env
-
 
 
 
